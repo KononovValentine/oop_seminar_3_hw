@@ -13,6 +13,7 @@ public class Bus extends Automobile {
         this.passengerCapacity = passengerCapacity;
     }
 
+    // добавляет в переменную учета вошедших пассажиров за текущий рейс
     public void registerIncomingPassengers(int number) {
         numberOfPassengersPerTrip += number;
     }

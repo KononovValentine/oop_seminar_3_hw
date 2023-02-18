@@ -12,6 +12,7 @@ public class Plane extends Aviation {
         this.wingspan = wingspan;
     }
 
+    // запрашивает взлетно посадочную полосу
     public void requestALandingLane(int lane) {
         if (this.isInFlight) {
             System.out.println("Запрашиваю разрешение на посадку на полосу " + lane);
